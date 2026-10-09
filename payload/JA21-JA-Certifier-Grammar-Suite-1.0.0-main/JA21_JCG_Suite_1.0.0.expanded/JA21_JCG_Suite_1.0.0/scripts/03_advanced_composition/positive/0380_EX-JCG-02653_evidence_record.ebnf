@@ -1,0 +1,14 @@
+ja certifier 0.3
+module corpus.ja_certifier.example_02653
+policy no_execute_unknown_code
+policy no_network
+grammar Grammar02653 {
+  import deepml.core.expression as TensorExpression ;
+  production declaration = tensorDecl | functionDecl ;
+  predicate no_hidden_network(declaration) ;
+  type_judgment declaration : WellTyped ;
+  policy_validator SafetyValidator requires [no_network, no_execute_unknown_code] ;
+  compiler_validator LoweringValidator verifies [AST, R12, MCRT] ;
+  evidence Evidence02653 { source_hash: required compiler_hash: required runtime_hash: required }
+  certification profile Strict0 { require all validators }
+}

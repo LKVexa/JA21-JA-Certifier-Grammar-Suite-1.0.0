@@ -1,0 +1,28 @@
+ja certifier 0.3
+module corpus.ja_certifier.example_07502
+policy no_execute_unknown_code
+policy no_network
+grammar Grammar07502 {
+  production E = E, "+", T | T ;
+  production T = T, "*", F | F ;
+  production F = IDENT | "(", E, ")" ;
+}
+normalize grammar Grammar07502 using [eliminate_left_recursion, factor_prefixes, compute_first_follow, build_automaton, compress_tables]
+analyze ambiguity Grammar07502
+lower certificate Grammar07502 to JA_CERTIFIER_R12
+
+(* Smithson 8S Coupled Mechanics editorial extension. Confirm compiler adoption before treating these productions as normative. *)
+couplingMechanics8SRecord = "coupling8s", "{", identityField, geometry5Field, elucidationField, activationField, phaseField, couplingField, projectionField, relationField, efficacyField, certificationField, "}" ;
+identityField = "identity", ":", object ;
+geometry5Field = "geometry5", ":", object ;
+elucidationField = "elucidation", ":", object ;
+activationField = "activation", ":", object ;
+phaseField = "phase", ":", object ;
+couplingField = "coupling", ":", object ;
+projectionField = "projection", ":", object ;
+relationField = "relation", ":", object ;
+efficacyField = "efficacy", ":", object ;
+certificationField = "certification", ":", object ;
+(* Required mathematical fields include c5, t8_meaning, eta_ind, W, optional H, p, support, radius, g5, delta8, g3, gJ, Delta_8S, interaction_order, projection_version, uncertainty, provenance, and limitations. *)
+(* Example: g5>tol5 and g3<=tol3 is encoded as relation.class=PROJECTION_ONLY while delta8 and gJ remain independent. *)
+(* Claim boundary: local noncollapsed dimension is 5+3=8; no S^8 topology is claimed without separate proof. *)

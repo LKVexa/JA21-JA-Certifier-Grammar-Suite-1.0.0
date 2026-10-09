@@ -1,0 +1,727 @@
+{
+  "language": "ja.certifier",
+  "operators": [
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.alternative",
+      "normalized": "declare_or_compose_alternative",
+      "omega": "OMEGA_JCG_ALTERNATIVE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "alternative"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.ambiguity",
+      "normalized": "declare_or_compose_ambiguity",
+      "omega": "OMEGA_JCG_AMBIGUITY",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "ambiguity"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.ambiguity_analysis",
+      "normalized": "declare_or_compose_ambiguity_analysis",
+      "omega": "OMEGA_JCG_AMBIGUITY_ANALYSIS",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "ambiguity_analysis"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.annotation",
+      "normalized": "declare_or_compose_annotation",
+      "omega": "OMEGA_JCG_ANNOTATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "annotation"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.associativity",
+      "normalized": "declare_or_compose_associativity",
+      "omega": "OMEGA_JCG_ASSOCIATIVITY",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "associativity"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.ast_binding",
+      "normalized": "declare_or_compose_ast_binding",
+      "omega": "OMEGA_JCG_AST_BINDING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "ast_binding"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.automaton",
+      "normalized": "declare_or_compose_automaton",
+      "omega": "OMEGA_JCG_AUTOMATON",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "automaton"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.certification_bundle",
+      "normalized": "declare_or_compose_certification_bundle",
+      "omega": "OMEGA_JCG_CERTIFICATION_BUNDLE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "certification_bundle"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.certification_profile",
+      "normalized": "declare_or_compose_certification_profile",
+      "omega": "OMEGA_JCG_CERTIFICATION_PROFILE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "certification_profile"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.character_class",
+      "normalized": "declare_or_compose_character_class",
+      "omega": "OMEGA_JCG_CHARACTER_CLASS",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "character_class"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.compatibility_profile",
+      "normalized": "declare_or_compose_compatibility_profile",
+      "omega": "OMEGA_JCG_COMPATIBILITY_PROFILE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "compatibility_profile"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.compiler_validator",
+      "normalized": "declare_or_compose_compiler_validator",
+      "omega": "OMEGA_JCG_COMPILER_VALIDATOR",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "compiler_validator"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.cross_language_import",
+      "normalized": "declare_or_compose_cross_language_import",
+      "omega": "OMEGA_JCG_CROSS_LANGUAGE_IMPORT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "cross_language_import"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.diagnostic",
+      "normalized": "declare_or_compose_diagnostic",
+      "omega": "OMEGA_JCG_DIAGNOSTIC",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "diagnostic"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.empty_cycle",
+      "normalized": "certify_empty_cycle",
+      "omega": "OMEGA_JCG_EMPTY_CYCLE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "empty_cycle"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.evidence_record",
+      "normalized": "declare_or_compose_evidence_record",
+      "omega": "OMEGA_JCG_EVIDENCE_RECORD",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "evidence_record"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.first_follow",
+      "normalized": "declare_or_compose_first_follow",
+      "omega": "OMEGA_JCG_FIRST_FOLLOW",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "first_follow"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.grammar_module",
+      "normalized": "declare_or_compose_grammar_module",
+      "omega": "OMEGA_JCG_GRAMMAR_MODULE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "grammar_module"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.grammar_normalization",
+      "normalized": "declare_or_compose_grammar_normalization",
+      "omega": "OMEGA_JCG_GRAMMAR_NORMALIZATION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "grammar_normalization"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.grouping",
+      "normalized": "declare_or_compose_grouping",
+      "omega": "OMEGA_JCG_GROUPING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "grouping"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.import",
+      "normalized": "declare_or_compose_import",
+      "omega": "OMEGA_JCG_IMPORT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "import"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.invalid_evidence",
+      "normalized": "certify_invalid_evidence",
+      "omega": "OMEGA_JCG_INVALID_EVIDENCE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "invalid_evidence"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.language_certificate",
+      "normalized": "declare_or_compose_language_certificate",
+      "omega": "OMEGA_JCG_LANGUAGE_CERTIFICATE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "language_certificate"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.left_recursion",
+      "normalized": "declare_or_compose_left_recursion",
+      "omega": "OMEGA_JCG_LEFT_RECURSION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "left_recursion"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.lexical_mode",
+      "normalized": "declare_or_compose_lexical_mode",
+      "omega": "OMEGA_JCG_LEXICAL_MODE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "lexical_mode"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.literal",
+      "normalized": "declare_or_compose_literal",
+      "omega": "OMEGA_JCG_LITERAL",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "literal"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.migration_profile",
+      "normalized": "declare_or_compose_migration_profile",
+      "omega": "OMEGA_JCG_MIGRATION_PROFILE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "migration_profile"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.multistage_suite",
+      "normalized": "declare_or_compose_multistage_suite",
+      "omega": "OMEGA_JCG_MULTISTAGE_SUITE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "multistage_suite"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.optional",
+      "normalized": "declare_or_compose_optional",
+      "omega": "OMEGA_JCG_OPTIONAL",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "optional"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.parser_rule",
+      "normalized": "declare_or_compose_parser_rule",
+      "omega": "OMEGA_JCG_PARSER_RULE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "parser_rule"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.parser_table_compression",
+      "normalized": "declare_or_compose_parser_table_compression",
+      "omega": "OMEGA_JCG_PARSER_TABLE_COMPRESSION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "parser_table_compression"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.policy_validator",
+      "normalized": "declare_or_compose_policy_validator",
+      "omega": "OMEGA_JCG_POLICY_VALIDATOR",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "policy_validator"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.precedence",
+      "normalized": "declare_or_compose_precedence",
+      "omega": "OMEGA_JCG_PRECEDENCE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "precedence"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.precedence_conflict",
+      "normalized": "certify_precedence_conflict",
+      "omega": "OMEGA_JCG_PRECEDENCE_CONFLICT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "precedence_conflict"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.production",
+      "normalized": "declare_or_compose_production",
+      "omega": "OMEGA_JCG_PRODUCTION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "production"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.r12_mcrt_lowering",
+      "normalized": "declare_or_compose_r12_mcrt_lowering",
+      "omega": "OMEGA_JCG_R12_MCRT_LOWERING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "r12_mcrt_lowering"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.recovery_rule",
+      "normalized": "declare_or_compose_recovery_rule",
+      "omega": "OMEGA_JCG_RECOVERY_RULE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "recovery_rule"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.repetition",
+      "normalized": "declare_or_compose_repetition",
+      "omega": "OMEGA_JCG_REPETITION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "repetition"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.semantic_predicate",
+      "normalized": "declare_or_compose_semantic_predicate",
+      "omega": "OMEGA_JCG_SEMANTIC_PREDICATE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "semantic_predicate"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.sequence",
+      "normalized": "declare_or_compose_sequence",
+      "omega": "OMEGA_JCG_SEQUENCE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "sequence"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.stale_hash",
+      "normalized": "declare_or_compose_stale_hash",
+      "omega": "OMEGA_JCG_STALE_HASH",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "stale_hash"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.token",
+      "normalized": "declare_or_compose_token",
+      "omega": "OMEGA_JCG_TOKEN",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "token"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.type_judgment",
+      "normalized": "declare_or_compose_type_judgment",
+      "omega": "OMEGA_JCG_TYPE_JUDGMENT",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "type_judgment"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.undefined_symbol",
+      "normalized": "declare_or_compose_undefined_symbol",
+      "omega": "OMEGA_JCG_UNDEFINED_SYMBOL",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "undefined_symbol"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.unreachable_production",
+      "normalized": "declare_or_compose_unreachable_production",
+      "omega": "OMEGA_JCG_UNREACHABLE_PRODUCTION",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "unreachable_production"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.unsigned_certificate",
+      "normalized": "declare_or_compose_unsigned_certificate",
+      "omega": "OMEGA_JCG_UNSIGNED_CERTIFICATE",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "unsigned_certificate"
+    },
+    {
+      "effects": "domain-specific; see examples",
+      "id": "ja.certifier.operator.validator_scheduling",
+      "normalized": "declare_or_compose_validator_scheduling",
+      "omega": "OMEGA_JCG_VALIDATOR_SCHEDULING",
+      "policy_requirements": [
+        "no_network",
+        "no_execute_unknown_code",
+        "stable_ids",
+        "preserve_provenance"
+      ],
+      "surface": "validator_scheduling"
+    }
+  ],
+  "_coupling_mechanics": {
+    "framework": "Smithson 8S Coupled Mechanics v1.0",
+    "status": "Proposed generative and computational law; not an established physical law, not the standard sphere S^8 without separate topological proof, and not evidence of physical quantum entanglement.",
+    "author": "Russell Philip Smithson",
+    "analytical_support_layers": [
+      "SOPHIA",
+      "CHARLOTTE",
+      "LANDON"
+    ],
+    "canonical_terms": {
+      "object": "S^3 fiber",
+      "base": "five-dimensional penteract field B^5=[-1,1]^5",
+      "hidden_center": "latent five-dimensional center",
+      "fifth_coordinate": "elucidation coordinate t8 with declared independent semantic or mechanical meaning",
+      "visible_center": "projected center",
+      "pairwise_interaction": "sparse geometric-semantic classical coupling",
+      "higher_order_interaction": "selective triadic coupling",
+      "visual_overlap": "projected three-dimensional overlap",
+      "total_space": "locally eight-dimensional noncollapsed penteract-S^3 hyperfiber system"
+    },
+    "equations": {
+      "coordinate_extension": "C5=[C4|e]",
+      "independent_residual": "e_perp=(I-C4*C4^+)e",
+      "independence_score": "eta_ind=||e_perp||_2^2/(||e||_2^2+epsilon)",
+      "driver": "q(tau)=sin^2(pi*tau/T)",
+      "candidate_site": "c_n=ell*n, n in Z^5, ||n||_1<=M",
+      "shell_multiplicity": "A_5(m)=sum_{j=1}^{min(5,m)} 2^j*C(5,j)*C(m-1,j-1); A_5(0)=1",
+      "coupling_weight": "W_ij=A_ij*exp(-((c_i-c_j)^T G5 (c_i-c_j))/(2 sigma_c^2)-d_J(i,j)^2/(2 sigma_J^2))",
+      "phase_dynamics": "dtheta_i/dtau=omega_i+K2*sum_j W_ij*sin(theta_j-theta_i)+K3*sum_{j,k} H_ijk*sin(theta_j+theta_k-2theta_i)",
+      "activation_score": "h_i=beta(Mq+1/2-d_i)+a_E E_i+a_u u_i-a_chi chi_i-a_zeta zeta_i+J2*sum_j W_ij(2p_j-1)+J3*sum_{j,k} H_ijk(2p_j-1)(2p_k-1)",
+      "activation": "p_i=sigma(h_i)=1/(1+exp(-h_i))",
+      "smooth_boundary": "B_5,infinity(c_i)=prod_{a=4}^{8} b(c_{i,a})",
+      "effective_support": "s_i=p_i*kappa_i*(1-chi_i)*(1-zeta_i)*v(omega_i)",
+      "radius": "r_i=r_max*B_5,infinity(c_i)^alpha*s_i^(1/3)",
+      "fiber": "F_i=S^3_{r_i}={y in R^4: ||y||_2=r_i}",
+      "fiber_volume": "Vol(S^3_{r_i})=2*pi^2*r_max^3*B_5,infinity(c_i)^(3alpha)*s_i",
+      "total_space": "X8(tau)={(c,y) in [-1,1]^5 x R^4: ||y||_2=R(c,tau)}",
+      "full_projection": "x_i^(3)(u,tau)=[Pi5(tau)|Psi4(tau)]*[c_i;r_i*u], u in S^3",
+      "latent_5d_gap": "g5_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j))-(lambda_i+lambda_j)",
+      "product_state_separation": "delta8_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j)+(r_i-r_j)^2)",
+      "projected_gap": "g3_ij=||Pi5*c_i-Pi5*c_j||_2-(rhat_i+rhat_j)",
+      "semantic_gap": "gJ_ij=d_J(J_i,J_j)-theta_J",
+      "efficacy_gain": "Delta_8S=Score(M8)-Score(M7)",
+      "admission_gate": "Admit(8S) iff eta_ind>=epsilon_ind and Delta_8S>epsilon_gain"
+    },
+    "relation_test": {
+      "inputs": [
+        "g5_ij",
+        "delta8_ij",
+        "g3_ij",
+        "gJ_ij",
+        "K_ij",
+        "Sigma_ij"
+      ],
+      "classification_order": [
+        "UNRESOLVED when an uncertainty interval crosses a declared tolerance or required evidence/provenance is missing",
+        "CONTRADICTION when K_ij>=theta_K",
+        "HIGHER_ORDER when a triadic term changes the pairwise result",
+        "PROJECTION_ONLY when g5_ij>tol5 and g3_ij<=tol3",
+        "LATENT_5D_COUPLED when g5_ij<-tol5",
+        "FIBER_STATE_RESONANT when delta8_ij<=tol8 and phase coherence is within tolerance",
+        "SEMANTIC_ONLY when latent and projected gaps are positive but gJ_ij<=tolJ",
+        "REINFORCING when semantics, phase, and provenance support the same result",
+        "NONE otherwise"
+      ],
+      "scale": "L=max(ell,r_max,lambda_i,lambda_j,||c_i-c_j||_G5)",
+      "tol5": "1e-7 L unless a stricter profile is declared",
+      "tol8": "1e-7 L unless a stricter profile is declared",
+      "tol3": "1e-5 L unless a stricter rendering profile is declared",
+      "tolJ": "declared semantic-distance tolerance",
+      "observability": "A single 3x5 base projection has nullspace dimension at least two; stacked views require rank 5 for unique linear center reconstruction."
+    },
+    "r12_profile": {
+      "identity_schema": "8S law version and penteract profile",
+      "latent_geometry": "c_i, G5, shell, fifth-coordinate meaning",
+      "activation_support": "p_i, kappa_i, chi_i, zeta_i, s_i",
+      "phase_coupling": "theta_i, W_ij, H_ijk, interaction order",
+      "projection_tests": "g5, delta8, g3, gJ, projection version, tolerance profile",
+      "certification": "eta_ind, Delta_8S, relation class, limitations",
+      "fold_invariant": "document-level folding must preserve contradiction, uncertainty, provenance, projection version, and the interaction order that changed the result"
+    },
+    "execution_policy": {
+      "default": "sparse pairwise neighborhoods",
+      "escalation": "activate triadic terms only in unresolved, contradictory, high-risk, or certification-critical clusters",
+      "complexity_target": "O(Nk) pairwise sparse execution with selective higher-order escalation rather than unrestricted O(N^3) triads"
+    },
+    "validation_gate": {
+      "compare_models": "fit M7 and M8 to the same data and evaluate held-out results",
+      "required_tests": [
+        "nonredundancy",
+        "interpretability",
+        "predictive or certifying gain",
+        "cost-benefit",
+        "projection identifiability",
+        "R12 replay invariants"
+      ],
+      "replay_requirements": {
+        "independence_score_difference": "<=1e-8",
+        "center_radius_phase_difference": "<=1e-7 L with wrapped phase <=1e-6 radians",
+        "relation_class_and_tuple_hash": "identical",
+        "interaction_order": "identical"
+      }
+    },
+    "example": "When g5>tol5 and g3<=tol3, record PROJECTION_ONLY; preserve delta8, gJ, uncertainty, projection version, and interaction order independently.",
+    "annotations": [
+      "The fifth coordinate is admitted only when it contains a material residual outside span(C4), has declared meaning, and improves held-out efficacy after compute and energy costs.",
+      "A five-dimensional base plus an S^3 fiber gives local noncollapsed dimension 8, but does not by itself prove the total space is the standard sphere S^8.",
+      "Increasing latent dimension is distinct from adding higher-order coupling: H_ijk is required for genuine triadic mechanics.",
+      "Additional numerical data required: C4, proposed coordinate e, G5, W, optional H, evidence fields, phase initial conditions, projection family, apparent radii or meshes, semantic metric, tolerances, provenance, and replay identifier."
+    ]
+  }
+}

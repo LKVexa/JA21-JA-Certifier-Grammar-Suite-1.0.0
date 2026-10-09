@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JA21 JA Certifier Grammar Technical Corpus Record",
+  "type": "object",
+  "required": [
+    "identity",
+    "pedagogy",
+    "source",
+    "semantic_interpretation",
+    "ast",
+    "compiler_representation",
+    "runtime_representation",
+    "validation_result",
+    "optimization_notes",
+    "provenance",
+    "record_coupling_mechanics",
+    "document_coupling_mechanics"
+  ],
+  "properties": {
+    "identity": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "sequence",
+        "language",
+        "language_version"
+      ]
+    },
+    "pedagogy": {
+      "type": "object",
+      "required": [
+        "tier",
+        "example_class",
+        "topic",
+        "track"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "program",
+        "sha256"
+      ]
+    },
+    "semantic_interpretation": {
+      "type": "object"
+    },
+    "ast": {
+      "type": "object"
+    },
+    "compiler_representation": {
+      "type": "object"
+    },
+    "runtime_representation": {
+      "type": "object"
+    },
+    "validation_result": {
+      "type": "object"
+    },
+    "optimization_notes": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "record_coupling_mechanics": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "document_coupling_mechanics": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "rule": "syntax_error",
+    "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/tools/inspect_corpus.py",
+    "severity": "high",
+    "message": "unterminated string literal (detected at line 23) (JA21-JA-Certifier-Grammar-Suite-1.0.0-main.zip!JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.zip!JA21_JCG_Suite_1.0.0/tools/inspect_corpus.py, line 23)"
+  }
+]

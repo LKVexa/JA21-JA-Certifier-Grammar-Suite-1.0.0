@@ -1,0 +1,966 @@
+{
+  "coverage": [
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 1,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/bootstrap/bootstrap_records.jsonl",
+      "content_bytes": 76432,
+      "content_sha256": "01e9344fd0d9cf2d08609c5d5d614aa86960a37fb8cfd773366b91cfe1512359",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 48,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 2,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/bootstrap/bootstrap_records.md",
+      "content_bytes": 68206,
+      "content_sha256": "5ee13baac0e4f96e713c955ce283cc9280b44bf2fca1c7c6c6b3b08dbaa4bf01",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 3,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/compiler/contract.json",
+      "content_bytes": 6981,
+      "content_sha256": "d182cb164891278ff7109bc657362360cf6dcbba880e6184dc4ea34740d4eabe",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 4,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/coverage.json",
+      "content_bytes": 8436,
+      "content_sha256": "2bc00bccc2f555d23994ef02402b54994ba7fb662cec1247bd3160b5b7b1c27f",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 5,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_00001_00250.jsonl",
+      "content_bytes": 1394405,
+      "content_sha256": "2f730c4aaa806449c40051569b83b7e84d53eefa49fa1991b7ba68da8d67a935",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 6,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_00251_00500.jsonl",
+      "content_bytes": 1394523,
+      "content_sha256": "68acc0d69bedabee14bc26307fddfa093a59230359a68e2d3d30d0c6b54f1e9f",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 7,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_00501_00750.jsonl",
+      "content_bytes": 1394618,
+      "content_sha256": "f05091208388a8e27fd28ef79fbda3b215814381ef15876fea09fec99f09bf48",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 8,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_00751_01000.jsonl",
+      "content_bytes": 1394527,
+      "content_sha256": "6898807929fc31508ddad358096993482de651c69e3806da3f656dd78a963d0b",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 9,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_01001_01250.jsonl",
+      "content_bytes": 1427385,
+      "content_sha256": "e27dea6714aac302424285542d7f50af810354cbf81baff002be52f3d6c2bdf0",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 10,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_01251_01500.jsonl",
+      "content_bytes": 1427294,
+      "content_sha256": "440b163c7e7d5ce237150f847b30848812aea24caaa0f663c77e79bcdb33b036",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 11,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_01501_01750.jsonl",
+      "content_bytes": 1427322,
+      "content_sha256": "6b141f3526e1a03d47e9958c8b611439e363a9c5649d432134805abdd28070e9",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 12,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_01751_02000.jsonl",
+      "content_bytes": 1427226,
+      "content_sha256": "079ac4d55a7cea4d8c76a314c0b22bf0db35536a6b7969a398a351340d3956f4",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 13,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_02001_02250.jsonl",
+      "content_bytes": 1427339,
+      "content_sha256": "03b8a752aee0df585245b877094ae0a4fad2cb701b88212a159fb3c72bc5bd6d",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 14,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_02251_02500.jsonl",
+      "content_bytes": 1427321,
+      "content_sha256": "a12273ae8807e65eb3f1438eb1eeb9099f8a8154fbb6433dc64b8f580fe6bcd3",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 15,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_02501_02750.jsonl",
+      "content_bytes": 1489993,
+      "content_sha256": "efe4c5dfc92984c9a12f292fd991c271bec757f3e65016177712098ec6ddac48",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 16,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_02751_03000.jsonl",
+      "content_bytes": 1490076,
+      "content_sha256": "a1c8a7f61bcd1dff506d2d330c5b492f143ba3f0a2a236a2a52d2e0223589928",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 17,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_03001_03250.jsonl",
+      "content_bytes": 1489929,
+      "content_sha256": "06013f6d2a11c0832d64cd964e98831f4667ffe1e32e7b607c13122c64030268",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 18,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_03251_03500.jsonl",
+      "content_bytes": 1490040,
+      "content_sha256": "00a80502a3cd7bf7e34f1b0afb83090230194e22767cfc5c69af24005ef9833f",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 19,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_03501_03750.jsonl",
+      "content_bytes": 1490071,
+      "content_sha256": "90a4c041a17e72ed9a51d0fe6cb2516ebc8ae93a1c18b24056f8c03b28c16c17",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 20,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_03751_04000.jsonl",
+      "content_bytes": 1490065,
+      "content_sha256": "454d02f06372c790736c9490b0a4b23b7f1e668956c9702cbd513d431e51282e",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 21,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_04001_04250.jsonl",
+      "content_bytes": 1489865,
+      "content_sha256": "773d0bc17fadb3180b86c68709c6e1866836c1c4b5261e7c9817fc469732d665",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 22,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_04251_04500.jsonl",
+      "content_bytes": 1490100,
+      "content_sha256": "05f15e5c04349256df5d8c16fd6649707c23ccbef73581dca56be1f10e5ebf1b",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 23,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_04501_04750.jsonl",
+      "content_bytes": 1489974,
+      "content_sha256": "023638529b724974f00875e2f7e4eec5be34b46e439b38ac22cf1c648ab70ae9",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 24,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_04751_05000.jsonl",
+      "content_bytes": 1490049,
+      "content_sha256": "5139b5afc001fe7f7719907fcdb0aaac8bde39387bf875f1215f93eeb9cddb18",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 25,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_05001_05250.jsonl",
+      "content_bytes": 1528189,
+      "content_sha256": "61021ba97f7ea3eaa1934d137591f7470deefd0b700d98f41a4354eca4637db5",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 26,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_05251_05500.jsonl",
+      "content_bytes": 1527931,
+      "content_sha256": "cbffe1198363f059061377d14216f07d19bd29e66ffa18f00dbb01b6b3845e9e",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 27,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_05501_05750.jsonl",
+      "content_bytes": 1528194,
+      "content_sha256": "d7c5d566e7634e7640a6a18214e95d45a2f46bbcb4103add464dad9e9a7d7d06",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 28,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_05751_06000.jsonl",
+      "content_bytes": 1527931,
+      "content_sha256": "151df33d6bab1a4463b93f57bd61623df716470a14214b6e3fb551b50326a7d9",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 29,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_06001_06250.jsonl",
+      "content_bytes": 1528193,
+      "content_sha256": "516b49fd4ae066788df1a23165bb53ff57bf37d1564d267b86a34ca6c20bca80",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 30,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_06251_06500.jsonl",
+      "content_bytes": 1527923,
+      "content_sha256": "370529629426171eeaad96d84dafe01a8c5eb48a9f1c1daefe5589dce8991540",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 31,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_06501_06750.jsonl",
+      "content_bytes": 1528187,
+      "content_sha256": "d9ae430be35772ebdfb422379d6e4f8a3e65ec4de87b42e480ed88905a3250bd",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 32,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_06751_07000.jsonl",
+      "content_bytes": 1527935,
+      "content_sha256": "d2d1d408b3e2efeb16990a3917934af4603d83d047a1b73a38a1ed689336217a",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 33,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_07001_07250.jsonl",
+      "content_bytes": 1528191,
+      "content_sha256": "f203048b2b856bf5de03bffc43b2431abb5b4288e42a3052f5ee9131c5ce5666",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 34,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_07251_07500.jsonl",
+      "content_bytes": 1527931,
+      "content_sha256": "f63b140a6c319de0089d57bdcea78ff03bdaef76b8b0b3179bbe617a77b539e5",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 35,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_07501_07750.jsonl",
+      "content_bytes": 1428771,
+      "content_sha256": "1dede5914c3490511a5224c9e0f97adf534c442f625f307c8f6e929ac2c6d8cf",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 36,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_07751_08000.jsonl",
+      "content_bytes": 1428112,
+      "content_sha256": "0a8c8b080c94fb1c8837a3979811eb702c76a1bb035b4d692bbaff0f3bb31aca",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 37,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_08001_08250.jsonl",
+      "content_bytes": 1428136,
+      "content_sha256": "d642f1806c3ec27f189f42230062322da29ddb1d60f89f2871cb28591976450b",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 38,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_08251_08500.jsonl",
+      "content_bytes": 1428231,
+      "content_sha256": "99ec315c7462432f1f6c3854c0b42c2563132c8181268c48eb5c904243d17110",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 39,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_08501_08750.jsonl",
+      "content_bytes": 1428771,
+      "content_sha256": "334be608a44907d19afe9c9a6c1a63f8b98e1646f0051dcfb92037fa2b62588b",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 40,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_08751_09000.jsonl",
+      "content_bytes": 1428117,
+      "content_sha256": "c8a3f851c7fec45fca824b6b6bdec3bd482c511781b7c10d29645c8643b11a56",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 41,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_09001_09250.jsonl",
+      "content_bytes": 1333218,
+      "content_sha256": "94959a0caa8f0d86b329f41ea80493507fcdef68ff6db8c24469f93e4ea1c2ee",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 42,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_09251_09500.jsonl",
+      "content_bytes": 1333572,
+      "content_sha256": "64d0aae68f41c2e716fb37136c3c839a142bdf06546df15e492bc09ab83eb795",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 43,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_09501_09750.jsonl",
+      "content_bytes": 1334652,
+      "content_sha256": "c9cd535d64499dd01839b77eb7e7915f2710927dcc67106075774b63cd153512",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 44,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/examples/JCG_09751_10000.jsonl",
+      "content_bytes": 1334189,
+      "content_sha256": "57b3f8739c7251deeb43ac0e6434dc653a87e329b9e4ac3dc1bc4565ff0c2fe1",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 251,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 45,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/grammar/grammar.ebnf",
+      "content_bytes": 2489,
+      "content_sha256": "082858b14d866d891f167e15a50a7c01dacfb4e69bad74ad410cceca7a7b0007",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 46,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/grammar/grammar_specification.md",
+      "content_bytes": 12196,
+      "content_sha256": "6efc2cdbb9cad5178727707afa8caaebb414b51fe22e7547bef5ca17a4a43d04",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 47,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/hashes.sha256",
+      "content_bytes": 5210,
+      "content_sha256": "bfcd76fd5b4eedafa5b92c0bd76a4abb5bfb2ac22badb47f1f934f518574b26c",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 48,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/language_suite_specification.md",
+      "content_bytes": 11498,
+      "content_sha256": "05e7e23037d4c75555dc79c7e17bab76ef92807103e9db93eed6effddef83e97",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 49,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/learning/learning_modules.json",
+      "content_bytes": 21056,
+      "content_sha256": "3b1ecacc3a8ddea1d0c17da0d95a4e91e2d78a57b8d56ec958ada519de37fb00",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 50,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/manifest.json",
+      "content_bytes": 8313,
+      "content_sha256": "607034c4938eb8a7b971d52517bfa2d847773f289d7b4eea24461568b19a81c1",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 51,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/mcrt/profile.schema.json",
+      "content_bytes": 6932,
+      "content_sha256": "54696809de370eb9d4a3f5a2d109620b5d2d3105f02798ef09b6ec67add4dc52",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 52,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/README.md",
+      "content_bytes": 2787,
+      "content_sha256": "79fbad96af5c4bc79bc88a99dd058a11be61397cc0b45ab0bebff579af6d068e",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 53,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/runtime/contract.json",
+      "content_bytes": 6908,
+      "content_sha256": "2d90cd4e64cb9e630ca8e79075334f1384d01b8a03e98bdcd094b83b7a182341",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 54,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00001.ebnf",
+      "content_bytes": 1631,
+      "content_sha256": "07042b2e71904350f7c476594a59634b64c2544db3a6f3a98f32859454060c2f",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 55,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00001.record.json",
+      "content_bytes": 14822,
+      "content_sha256": "520baaffb5dae50a60e54ea4fe2841a65f7815c09d16b86c8679695c38fe7cd3",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 56,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00002.ebnf",
+      "content_bytes": 1631,
+      "content_sha256": "07e4a89ea7ca1f32edf76b19694070a16cfd832008ad160d67352cd54d31c77b",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 57,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00002.record.json",
+      "content_bytes": 14917,
+      "content_sha256": "da4eb9cec7181507b957239596cc465a95ec7202cc1eeda9838e2bbf932a80c4",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 58,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00003.ebnf",
+      "content_bytes": 1631,
+      "content_sha256": "b47a0b6cdee4b562f24f86802b1a8023846859cd67c0ce9e70ed10adabec4fca",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 59,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00003.record.json",
+      "content_bytes": 14936,
+      "content_sha256": "df328fb4d2b617f47fcb9f993e5a66e118a9b308bb9c84e031d792925c732e1e",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 60,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00004.ebnf",
+      "content_bytes": 1631,
+      "content_sha256": "f5728eb1044e79c799023e6c7d154850c98939a4e72fc321c6635c26e2427d5e",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 61,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00004.record.json",
+      "content_bytes": 14860,
+      "content_sha256": "bfd5af01efc2af6fdcf0ab759a8fe642cd1a51feedc5eca495a3def63fdfded1",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 62,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00005.ebnf",
+      "content_bytes": 1631,
+      "content_sha256": "3138c0f52064797c12c1fe2c72c605a7242a7aeec0fe7641a1c524aa9abfa52c",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 63,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-00005.record.json",
+      "content_bytes": 14881,
+      "content_sha256": "da718e6ea6f39713b63697e28061f95bce6d2a8e5d721e548b3415eee1688023",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 64,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-01000.ebnf",
+      "content_bytes": 1631,
+      "content_sha256": "872aaa2450fafee80931b53eaea79e3f434cdd3b47c363ae19b8dad14674bd45",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 65,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-01000.record.json",
+      "content_bytes": 14925,
+      "content_sha256": "35e390b8f544a49411efd91ce27dcf48883c45716aa6ad2842fb0b755f89909e",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 66,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-01001.ebnf",
+      "content_bytes": 1720,
+      "content_sha256": "144de42dae58df8c573cfc99fb4a96a0a5b3b471db9e83ca0ee5a69de064cec4",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 67,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-01001.record.json",
+      "content_bytes": 15097,
+      "content_sha256": "5fb4e59f5990b6d81218d7a5c3929527d949f9ad8da8e24a4ff135973c30882e",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 68,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-01002.ebnf",
+      "content_bytes": 1720,
+      "content_sha256": "c7110fc7c3c376e3bde929547ca16bf54aaa844eed8f1827f4fabcabff622462",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 69,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-01002.record.json",
+      "content_bytes": 15040,
+      "content_sha256": "51768fd67ab725e32ca2ef3d6dcde0c049679f56df085f44547001ff00431405",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 70,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-02500.ebnf",
+      "content_bytes": 1720,
+      "content_sha256": "e9ae50fde00bb7c01824ae053e51b707fc618041f849cc08e766b76d8888096a",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 71,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-02500.record.json",
+      "content_bytes": 15097,
+      "content_sha256": "d544f4b9a499aed1e1f90c0b15804da532e4fff768b8a7073bb24629a12bedbc",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 72,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-02501.ebnf",
+      "content_bytes": 1868,
+      "content_sha256": "ddf7088205a9c5db7e86afd518d9a2949ea9ebadab302934837df0f18ffbae09",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 73,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-02501.record.json",
+      "content_bytes": 15355,
+      "content_sha256": "fcdfc7dde4d630f7d3328677e7b9378d3ec258e86d578b1f6449da51ba9bff8c",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 74,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-02502.ebnf",
+      "content_bytes": 1920,
+      "content_sha256": "bcbd2740b452a3073f43b31a8dd6e7f83e1d49c1e705919cbec1e9d74b3a0c40",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 75,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-02502.record.json",
+      "content_bytes": 13780,
+      "content_sha256": "99f92c5db61aa352d1274ef1d451b4c57500d3914235f9895b6666e21b8d3fbf",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 76,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-05000.ebnf",
+      "content_bytes": 1868,
+      "content_sha256": "9de302a6830023ceec9ae57a29072ee2efa17589d3318a6ed5fd7675caf676ac",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 77,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-05000.record.json",
+      "content_bytes": 15353,
+      "content_sha256": "ec392ff2165b416267f7aaefb230e8aa30df215cb856789c3652ec985673f618",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 78,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-05001.ebnf",
+      "content_bytes": 1978,
+      "content_sha256": "6c92974db7a780d370fcce4ab2118697ef67de891a6a593ac9910e4bb3c7f91f",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 79,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-05001.record.json",
+      "content_bytes": 15535,
+      "content_sha256": "ea23ad660cac87ad7aed3906970e251a3dbab01d5a338394548b0e8e2aabe3f5",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 80,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-05002.ebnf",
+      "content_bytes": 1978,
+      "content_sha256": "e4bb72498e39621e648099d223537dfe0b9b7413d1fdc8c7427fa702520a99c0",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 81,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-05002.record.json",
+      "content_bytes": 15442,
+      "content_sha256": "4dcbe64907cb7d516d7e5000d799f117e9cb8836698f6cbe04fdee93dff4611f",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 82,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-07500.ebnf",
+      "content_bytes": 1978,
+      "content_sha256": "7c276f9ec93fd0ae2ee4376950b220a328ea2e383861f91179df03748558e1d1",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 83,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-07500.record.json",
+      "content_bytes": 15518,
+      "content_sha256": "293de53f24fe97cd2d19f70237ace1b69caf0196c6ed1468452b706c1868cbb5",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 84,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-07501.ebnf",
+      "content_bytes": 1688,
+      "content_sha256": "f2569e696c107a3aa5a1fb12b383bb985af59fc988f237578182c1c6f8397736",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 85,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-07501.record.json",
+      "content_bytes": 15148,
+      "content_sha256": "53e8befa90b83093ce232dbe34e3d80a4ef6b03ccec1ff727c2dffd5cb305848",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 86,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-07502.ebnf",
+      "content_bytes": 1688,
+      "content_sha256": "37fc180d68383cbe3ef3126fc542b80da64ae9a07c612bb70389240ae45360e2",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 87,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-07502.record.json",
+      "content_bytes": 15106,
+      "content_sha256": "5c298deb6b11a01e60ee929786abbd1f7ddea3c173ab2da40ba6e7dc51fe3b14",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 88,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09000.ebnf",
+      "content_bytes": 1688,
+      "content_sha256": "80932c53e43cc7066049bc2b5cec0bffe7601aefb62a448020724e2ff4937f7c",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 89,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09000.record.json",
+      "content_bytes": 15043,
+      "content_sha256": "2b7ff4901cca0b5a0dc9cfc548fc5ecf5836eea4afd8041ca95b1cc42a56c0d6",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 90,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09001.ebnf",
+      "content_bytes": 1467,
+      "content_sha256": "60d308350b9f1ddd0e6dbdb712080e0e86fdbe23a6f6995c210655d01fc13e92",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 91,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09001.record.json",
+      "content_bytes": 13161,
+      "content_sha256": "ffbcab34cf6b2b97dcc127b0f827ff3c145928275b8b58767335b28fe593060a",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 92,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09002.ebnf",
+      "content_bytes": 1443,
+      "content_sha256": "af09838bc0a0fdd31828231e6928bf8f2edaf356f005752af7755c235d399d0e",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 93,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09002.record.json",
+      "content_bytes": 13194,
+      "content_sha256": "f7e5c71ee281f2c0310c9c1dcc4cfa816e6268aed1d6375a45adc801d303228f",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 94,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09998.ebnf",
+      "content_bytes": 1471,
+      "content_sha256": "287e6dc48ddffa4e31677a6a5b5d4e03d74727a8689b202ce09b166a40b9f173",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 95,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09998.record.json",
+      "content_bytes": 13275,
+      "content_sha256": "72f2d71f7d4988ffd09707ff96100a891dc86f38e5004f21227892bff5871233",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 96,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09999.ebnf",
+      "content_bytes": 1462,
+      "content_sha256": "638ef46e3b750a76ed5758bb85571d34669c1b1fd797726410392bb10912deb4",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 97,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-09999.record.json",
+      "content_bytes": 13180,
+      "content_sha256": "aefea109291019270df6622a523780754190a6d717b4d56fda59c92846a662ec",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 98,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-10000.ebnf",
+      "content_bytes": 1442,
+      "content_sha256": "9ef9a7e2aecaa1f503c829216c91249c22a4fb38ed0e3c163119b42c42c593cc",
+      "check": "full_text_read_hash",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 99,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/sample_scripts/EX-JCG-10000.record.json",
+      "content_bytes": 13203,
+      "content_sha256": "cd7e0c627e129368060f15add2717e04f2f2be1431b11e6173b8bd6e0bd10fa3",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 100,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/semantic/operators.json",
+      "content_bytes": 25429,
+      "content_sha256": "af3da45189447c2945a59110621763e89f9b31fb5136a3defc5fd032b90825a2",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 101,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/validation/conformance_cases.jsonl",
+      "content_bytes": 88632,
+      "content_sha256": "09cf7d0819f7c225180d8fd2e0efef385ac8371da9f0587dd5ab21a747c33ec7",
+      "check": "all_embedded_jsonl_records",
+      "embedded_records": 101,
+      "invalid": 0
+    },
+    {
+      "wrapper": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+      "line": 102,
+      "original_id": "Corpora(2).zip::SCL_ja_certifier_Corpus_1.0/ja_certifier/validation/coverage_expectations.json",
+      "content_bytes": 7077,
+      "content_sha256": "6349c9038dce2e5fd4e8c6be4918b063401dd461b962e67aaf84618fd4bfb974",
+      "check": "embedded_json_parse",
+      "embedded_records": 0
+    }
+  ],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

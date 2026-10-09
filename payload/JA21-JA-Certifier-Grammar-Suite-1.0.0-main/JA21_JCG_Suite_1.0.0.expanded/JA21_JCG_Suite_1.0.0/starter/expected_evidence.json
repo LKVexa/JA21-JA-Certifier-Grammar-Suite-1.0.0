@@ -1,0 +1,28 @@
+{
+  "status": "modeled_not_executed",
+  "required_stages": [
+    "lex",
+    "parse",
+    "ast",
+    "name_resolution",
+    "type_check",
+    "semantic_validation",
+    "safety_gate",
+    "normalize",
+    "optimize",
+    "r12_lower",
+    "mcrt_emit",
+    "certification"
+  ],
+  "required_policies": [
+    "no_execute_unknown_code",
+    "no_network"
+  ],
+  "expected_artifacts": [
+    "typed_ast",
+    "grammar_analysis",
+    "r12_record",
+    "mcrt_record",
+    "language_certificate_or_diagnostic"
+  ]
+}

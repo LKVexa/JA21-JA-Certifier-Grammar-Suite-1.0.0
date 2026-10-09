@@ -1,0 +1,18 @@
+{
+  "profile": "ja.certifier",
+  "proposed_contribution": "Grammar version identities, diagnostics and language conformance gates",
+  "reuse_boundary": "Complete grammar and run actual parser/type/proof checks.",
+  "source_archive_sha256": "1e88a0fa8a93db91a5e936913012b3e9a29bcbff45c62e5f35696ed0052054ab",
+  "source_evidence_paths": [
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/SUITE_CATALOG.md",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/JA_Certifier_Grammar_Coupling_Mechanics_Corpus.jsonl.gz",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/ja_certifier_0.3/grammar/grammar.ebnf",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/ja_certifier_0.3/grammar/grammar_specification.md",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/reference_source/ja_certifier_0.3/language_suite_specification.md",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/scripts/01_basic_syntax/positive/0008_EX-JCG-00008_grammar_module.ebnf",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/scripts/01_basic_syntax/positive/0017_EX-JCG-00018_grammar_module.ebnf",
+    "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/scripts/01_basic_syntax/positive/0027_EX-JCG-00028_grammar_module.ebnf"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

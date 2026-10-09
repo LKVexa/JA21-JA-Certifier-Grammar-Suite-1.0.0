@@ -1,0 +1,132 @@
+{
+  "corpus": "JA21-JA-Certifier-Grammar-Suite-1.0.0-main",
+  "qualification_datasets": [
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/JA21_JCG_TECHNICAL_CORPUS_10000.jsonl.gz",
+      "records": 10000,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_01.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_02.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_03.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_04.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_05.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_06.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_07.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_08.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_09.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_10.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_11.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_12.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_13.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_14.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_15.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_16.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_17.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_18.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_19.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/corpus/technical/jcg_20.jsonl.gz",
+      "records": 500,
+      "metadata_review_records": 0,
+      "source_hash_conflicts": 0
+    }
+  ],
+  "note": "Master/shard copies count as stored record occurrences. Expectations preserved; source requirement warnings are lexical diagnostics."
+}

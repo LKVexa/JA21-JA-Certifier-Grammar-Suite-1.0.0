@@ -1,0 +1,14 @@
+ja certifier 0.3
+module corpus.ja_certifier.example_01378
+policy no_execute_unknown_code
+policy no_network
+grammar Grammar01378 {
+  mode DEFAULT { token IDENT = letter, { letter | digit } ; }
+  precedence left "+" "-" level 10 ;
+  precedence left "*" "/" level 20 ;
+  production expression @ast(BinaryExpr) = expression, operator, expression | IDENT ;
+  recovery expression synchronize [";", "}"] ;
+  diagnostic JCG-01378 when unexpected_token ;
+}
+validate parser Grammar01378 with lalr1
+assert certificate.semantic_hash == "invalid-01378"

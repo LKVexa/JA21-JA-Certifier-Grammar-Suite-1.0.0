@@ -1,0 +1,39 @@
+{
+  "suite": "JA21 JA Certifier Grammar",
+  "palette": {
+    "ink": "#13202B",
+    "paper": "#F5F1E8",
+    "copper": "#A8643A",
+    "signal": "#2E6F73",
+    "proof": "#4A5D3A",
+    "warning": "#9A5A24",
+    "reject": "#7D3434"
+  },
+  "typography": {
+    "display": "local serif or system serif",
+    "body": "local sans or system sans",
+    "code": "local monospace or system monospace"
+  },
+  "spacing": {
+    "micro": 4,
+    "small": 8,
+    "medium": 16,
+    "large": 24,
+    "section": 40
+  },
+  "evidence_states": [
+    "declared",
+    "analyzed",
+    "validated",
+    "rejected",
+    "unresolved",
+    "certified"
+  ],
+  "constraints": [
+    "air_gap_safe",
+    "no_remote_fonts",
+    "no_remote_assets",
+    "markdown_first",
+    "print_legible"
+  ]
+}

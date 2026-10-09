@@ -1,0 +1,107 @@
+{
+  "repository": "JA21-JA-Certifier-Grammar-Suite-1.0.0",
+  "copyright": "JA21-JA-Certifier-Grammar-Suite-1.0.0 (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license": "GPL-3.0-only",
+  "publication_date": "2026-10-09",
+  "source_preservation": "Original source directories, compressed archives, source manifests, and prior audit source statistics remain unchanged.",
+  "manifest_policy": "Only existing current manifest/checksum records covering files changed by the licensing pass were refreshed. No source audit statistics were rewritten.",
+  "changes": [
+    {
+      "path": "COPYRIGHT",
+      "action": "added",
+      "reason": "Requested repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "6a97ecca0fb3981ba1b7872004ace71581d49735539fcb47ca4d5781bfd10a61",
+      "current_bytes": 109
+    },
+    {
+      "path": "LICENSE",
+      "action": "added",
+      "reason": "Requested GPL-3.0-only repository license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "109fc944601eaa8d9d12123e022a16f085dc20ce4952a9c7978da7cd93796a03",
+      "current_bytes": 35259
+    },
+    {
+      "path": "NOTICE",
+      "action": "added",
+      "reason": "Repository license and publication provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "5630a52db262f5755d31f5804e7bc5d670719d53d2ebcd63035062a966c356b3",
+      "current_bytes": 378
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "fa0d2618f0c405746a235f5ee7fa663082c44d9def92c9299a7236bf1d085280",
+      "original_bytes": 374378,
+      "current_sha256": "24aebae50ed217af9145eeaa9f5211a7ac1f8d1d64139c13ba6d6f1df6068251",
+      "current_bytes": 368493
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/README.md",
+      "action": "modified",
+      "reason": "Reconcile current package licensing statement",
+      "original_sha256": "b6e91f56cd3b99bcbcda0903cf7c2382f78f44fc82c3fc9eacea9645da3f9a4e",
+      "original_bytes": 3289,
+      "current_sha256": "a4633ecd41c1746c7d51cfb8fc6366dcaadcfcd440f82fb6311cfa9eb117792e",
+      "current_bytes": 3401
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/MANIFEST.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "068d22a90d11edcdf9bba2a3e20eb11d6b089b81a64ee5370227f08998bf028e",
+      "original_bytes": 247926,
+      "current_sha256": "ea29c04803a7524bc027fc4a4d743d9abaaf1086169639aa730297a287abc6af",
+      "current_bytes": 247926
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/SHA256SUMS.txt",
+      "action": "modified",
+      "reason": "Refresh current checksum records for licensing edits",
+      "original_sha256": "c9b7c59487109fbf9bbb7d24ceb3188d7a203b7face8603c3972a77cb21ce220",
+      "original_bytes": 169007,
+      "current_sha256": "d06e4410b146df5e80aab685baa58d0dccddae3815764439a4f70c2274b79340",
+      "current_bytes": 169007
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/LICENSE.txt",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "original_bytes": 11358,
+      "current_sha256": "109fc944601eaa8d9d12123e022a16f085dc20ce4952a9c7978da7cd93796a03",
+      "current_bytes": 35259
+    }
+  ],
+  "current_manifest_updates": [
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/MANIFEST.json",
+      "covered_changes": [
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/README.md"
+      ]
+    },
+    {
+      "path": "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/SHA256SUMS.txt",
+      "covered_changes": [
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/README.md",
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/MANIFEST.json"
+      ]
+    },
+    {
+      "path": "audit/updated_manifest.json",
+      "covered_changes": [
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/MANIFEST.json",
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/manifests/SHA256SUMS.txt",
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/JA21_JCG_Suite_1.0.0.expanded/JA21_JCG_Suite_1.0.0/README.md",
+        "payload/JA21-JA-Certifier-Grammar-Suite-1.0.0-main/LICENSE.txt"
+      ]
+    }
+  ],
+  "ledger_integrity": "The publication-wide checksum manifest should cover this ledger; this ledger does not include a self-hash."
+}

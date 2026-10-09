@@ -1,0 +1,48 @@
+topic,track,records,positive,negative,certification,tier_1,tier_2,tier_3,tier_4,tier_5,tier_6
+alternative,EBNF composition,100,90,10,0,100,0,0,0,0,0
+ambiguity,Formal grammar analysis,125,0,125,0,0,0,0,0,0,125
+ambiguity_analysis,Formal grammar analysis,187,0,187,0,0,0,0,0,187,0
+annotation,Grammar structure,167,157,10,0,0,167,0,0,0,0
+associativity,Precedence & name analysis,167,147,20,0,0,167,0,0,0,0
+ast_binding,Grammar structure,167,153,14,0,0,167,0,0,0,0
+automaton,Formal grammar analysis,187,147,40,0,0,0,0,0,187,0
+certification_bundle,Evidence & certification,500,450,50,0,0,0,0,500,0,0
+certification_profile,Evidence & certification,357,304,53,0,0,0,357,0,0,0
+character_class,Lexical foundations,100,90,10,0,100,0,0,0,0,0
+compatibility_profile,Compatibility & integration,500,450,50,0,0,0,0,500,0,0
+compiler_validator,Semantic validation,358,305,53,0,0,0,358,0,0,0
+cross_language_import,Compatibility & integration,357,303,54,0,0,0,357,0,0,0
+diagnostic,Grammar structure,167,155,12,0,0,167,0,0,0,0
+empty_cycle,Formal grammar analysis,125,0,125,0,0,0,0,0,0,125
+evidence_record,Evidence & certification,357,303,54,0,0,0,357,0,0,0
+first_follow,Formal grammar analysis,188,152,36,0,0,0,0,0,188,0
+grammar_module,EBNF composition,100,100,0,0,100,0,0,0,0,0
+grammar_normalization,Formal grammar analysis,188,152,36,0,0,0,0,0,188,0
+grouping,EBNF composition,100,100,0,0,100,0,0,0,0,0
+import,Grammar structure,166,146,20,0,0,166,0,0,0,0
+invalid_evidence,Evidence & certification,125,0,125,0,0,0,0,0,0,125
+language_certificate,Evidence & certification,500,450,50,0,0,0,0,500,0,0
+left_recursion,Formal grammar analysis,187,152,35,0,0,0,0,0,187,0
+lexical_mode,Lexical foundations,166,146,20,0,0,166,0,0,0,0
+literal,Lexical foundations,100,100,0,0,100,0,0,0,0,0
+migration_profile,Compatibility & integration,500,450,50,0,0,0,0,500,0,0
+multistage_suite,Compatibility & integration,500,450,50,0,0,0,0,500,0,0
+optional,EBNF composition,100,90,10,0,100,0,0,0,0,0
+parser_rule,Grammar structure,167,149,18,0,0,167,0,0,0,0
+parser_table_compression,Formal grammar analysis,187,148,39,0,0,0,0,0,187,0
+policy_validator,Semantic validation,357,304,53,0,0,0,357,0,0,0
+precedence,Precedence & name analysis,166,146,20,0,0,166,0,0,0,0
+precedence_conflict,Precedence & name analysis,125,0,125,0,0,0,0,0,0,125
+production,EBNF composition,100,90,10,0,100,0,0,0,0,0
+r12_mcrt_lowering,Lowering & conformance,188,148,40,0,0,0,0,0,188,0
+recovery_rule,Grammar structure,167,151,16,0,0,167,0,0,0,0
+repetition,EBNF composition,100,100,0,0,100,0,0,0,0,0
+semantic_predicate,Semantic validation,357,303,54,0,0,0,357,0,0,0
+sequence,EBNF composition,100,90,10,0,100,0,0,0,0,0
+stale_hash,Evidence & certification,125,0,125,0,0,0,0,0,0,125
+token,Lexical foundations,100,100,0,0,100,0,0,0,0,0
+type_judgment,Semantic validation,357,303,54,0,0,0,357,0,0,0
+undefined_symbol,Precedence & name analysis,125,0,95,30,0,0,0,0,0,125
+unreachable_production,Precedence & name analysis,125,0,125,0,0,0,0,0,0,125
+unsigned_certificate,Evidence & certification,125,0,95,30,0,0,0,0,0,125
+validator_scheduling,Semantic validation,188,153,35,0,0,0,0,0,188,0

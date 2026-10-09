@@ -1,0 +1,597 @@
+{
+  "language": "ja.certifier",
+  "module_count": 10,
+  "modules": [
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 1000,
+        "start": 1
+      },
+      "examples": [
+        "EX-JCG-00001",
+        "EX-JCG-00002",
+        "EX-JCG-01000"
+      ],
+      "exercises": [
+        "Extend a alternative example without changing its semantic hash contract.",
+        "Extend a ambiguity example without changing its semantic hash contract.",
+        "Extend a ambiguity analysis example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-BEGINNER-01",
+      "lessons": [
+        "Beginner alternative",
+        "Beginner ambiguity",
+        "Beginner ambiguity analysis",
+        "Beginner annotation"
+      ],
+      "level": "Beginner",
+      "order": 1,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 2500,
+        "start": 1001
+      },
+      "examples": [
+        "EX-JCG-01001",
+        "EX-JCG-01002",
+        "EX-JCG-02500"
+      ],
+      "exercises": [
+        "Extend a associativity example without changing its semantic hash contract.",
+        "Extend a ast binding example without changing its semantic hash contract.",
+        "Extend a automaton example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-INTERMEDIATE-02",
+      "lessons": [
+        "Intermediate associativity",
+        "Intermediate ast binding",
+        "Intermediate automaton",
+        "Intermediate certification bundle"
+      ],
+      "level": "Intermediate",
+      "order": 2,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 5000,
+        "start": 2501
+      },
+      "examples": [
+        "EX-JCG-02501",
+        "EX-JCG-02502",
+        "EX-JCG-05000"
+      ],
+      "exercises": [
+        "Extend a certification profile example without changing its semantic hash contract.",
+        "Extend a character class example without changing its semantic hash contract.",
+        "Extend a compatibility profile example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-ADVANCED-03",
+      "lessons": [
+        "Advanced certification profile",
+        "Advanced character class",
+        "Advanced compatibility profile",
+        "Advanced compiler validator"
+      ],
+      "level": "Advanced",
+      "order": 3,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 7500,
+        "start": 5001
+      },
+      "examples": [
+        "EX-JCG-05001",
+        "EX-JCG-05002",
+        "EX-JCG-07500"
+      ],
+      "exercises": [
+        "Extend a cross language import example without changing its semantic hash contract.",
+        "Extend a diagnostic example without changing its semantic hash contract.",
+        "Extend a empty cycle example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-EXPERT-04",
+      "lessons": [
+        "Expert cross language import",
+        "Expert diagnostic",
+        "Expert empty cycle",
+        "Expert evidence record"
+      ],
+      "level": "Expert",
+      "order": 4,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 8250,
+        "start": 7501
+      },
+      "examples": [
+        "EX-JCG-07501",
+        "EX-JCG-07502",
+        "EX-JCG-08250"
+      ],
+      "exercises": [
+        "Extend a first follow example without changing its semantic hash contract.",
+        "Extend a grammar module example without changing its semantic hash contract.",
+        "Extend a grammar normalization example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-COMPILER-05",
+      "lessons": [
+        "Compiler first follow",
+        "Compiler grammar module",
+        "Compiler grammar normalization",
+        "Compiler grouping"
+      ],
+      "level": "Compiler",
+      "order": 5,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 9000,
+        "start": 8251
+      },
+      "examples": [
+        "EX-JCG-08251",
+        "EX-JCG-08252",
+        "EX-JCG-09000"
+      ],
+      "exercises": [
+        "Extend a import example without changing its semantic hash contract.",
+        "Extend a invalid evidence example without changing its semantic hash contract.",
+        "Extend a language certificate example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-RUNTIME-06",
+      "lessons": [
+        "Runtime import",
+        "Runtime invalid evidence",
+        "Runtime language certificate",
+        "Runtime left recursion"
+      ],
+      "level": "Runtime",
+      "order": 6,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 9000,
+        "start": 7501
+      },
+      "examples": [
+        "EX-JCG-07501",
+        "EX-JCG-07502",
+        "EX-JCG-09000"
+      ],
+      "exercises": [
+        "Extend a lexical mode example without changing its semantic hash contract.",
+        "Extend a literal example without changing its semantic hash contract.",
+        "Extend a migration profile example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-OPTIMIZATION-07",
+      "lessons": [
+        "Optimization lexical mode",
+        "Optimization literal",
+        "Optimization migration profile",
+        "Optimization multistage suite"
+      ],
+      "level": "Optimization",
+      "order": 7,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 9500,
+        "start": 9001
+      },
+      "examples": [
+        "EX-JCG-09001",
+        "EX-JCG-09002",
+        "EX-JCG-09500"
+      ],
+      "exercises": [
+        "Extend a optional example without changing its semantic hash contract.",
+        "Extend a parser rule example without changing its semantic hash contract.",
+        "Extend a parser table compression example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-VALIDATION-08",
+      "lessons": [
+        "Validation optional",
+        "Validation parser rule",
+        "Validation parser table compression",
+        "Validation policy validator"
+      ],
+      "level": "Validation",
+      "order": 8,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 10000,
+        "start": 9501
+      },
+      "examples": [
+        "EX-JCG-09501",
+        "EX-JCG-09502",
+        "EX-JCG-10000"
+      ],
+      "exercises": [
+        "Extend a precedence example without changing its semantic hash contract.",
+        "Extend a precedence conflict example without changing its semantic hash contract.",
+        "Extend a production example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-CERTIFICATION-09",
+      "lessons": [
+        "Certification precedence",
+        "Certification precedence conflict",
+        "Certification production",
+        "Certification r12 mcrt lowering"
+      ],
+      "level": "Certification",
+      "order": 9,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    },
+    {
+      "compiler_output": {
+        "required": [
+          "AST",
+          "typed status",
+          "R12 or rejection diagnostic",
+          "MCRT or rejection diagnostic"
+        ]
+      },
+      "example_range": {
+        "end": 10000,
+        "start": 5001
+      },
+      "examples": [
+        "EX-JCG-05001",
+        "EX-JCG-05002",
+        "EX-JCG-10000"
+      ],
+      "exercises": [
+        "Extend a recovery rule example without changing its semantic hash contract.",
+        "Extend a repetition example without changing its semantic hash contract.",
+        "Extend a semantic predicate example without changing its semantic hash contract."
+      ],
+      "explanations": "Use source-to-AST-to-R12-to-MCRT traceability and preserve no-network, deterministic, stable-ID, and provenance policies.",
+      "id": "JCG-DEPLOYMENT-10",
+      "lessons": [
+        "Deployment recovery rule",
+        "Deployment repetition",
+        "Deployment semantic predicate",
+        "Deployment sequence"
+      ],
+      "level": "Deployment",
+      "order": 10,
+      "runtime_output": {
+        "required": [
+          "admission status",
+          "deterministic trace",
+          "expected hash or failure stage"
+        ]
+      },
+      "validation_tests": [
+        "metadata_schema",
+        "namespace_resolution",
+        "semantic_identity",
+        "policy_gate",
+        "representation_consistency"
+      ]
+    }
+  ],
+  "_coupling_mechanics": {
+    "framework": "Smithson 8S Coupled Mechanics v1.0",
+    "status": "Proposed generative and computational law; not an established physical law, not the standard sphere S^8 without separate topological proof, and not evidence of physical quantum entanglement.",
+    "author": "Russell Philip Smithson",
+    "analytical_support_layers": [
+      "SOPHIA",
+      "CHARLOTTE",
+      "LANDON"
+    ],
+    "canonical_terms": {
+      "object": "S^3 fiber",
+      "base": "five-dimensional penteract field B^5=[-1,1]^5",
+      "hidden_center": "latent five-dimensional center",
+      "fifth_coordinate": "elucidation coordinate t8 with declared independent semantic or mechanical meaning",
+      "visible_center": "projected center",
+      "pairwise_interaction": "sparse geometric-semantic classical coupling",
+      "higher_order_interaction": "selective triadic coupling",
+      "visual_overlap": "projected three-dimensional overlap",
+      "total_space": "locally eight-dimensional noncollapsed penteract-S^3 hyperfiber system"
+    },
+    "equations": {
+      "coordinate_extension": "C5=[C4|e]",
+      "independent_residual": "e_perp=(I-C4*C4^+)e",
+      "independence_score": "eta_ind=||e_perp||_2^2/(||e||_2^2+epsilon)",
+      "driver": "q(tau)=sin^2(pi*tau/T)",
+      "candidate_site": "c_n=ell*n, n in Z^5, ||n||_1<=M",
+      "shell_multiplicity": "A_5(m)=sum_{j=1}^{min(5,m)} 2^j*C(5,j)*C(m-1,j-1); A_5(0)=1",
+      "coupling_weight": "W_ij=A_ij*exp(-((c_i-c_j)^T G5 (c_i-c_j))/(2 sigma_c^2)-d_J(i,j)^2/(2 sigma_J^2))",
+      "phase_dynamics": "dtheta_i/dtau=omega_i+K2*sum_j W_ij*sin(theta_j-theta_i)+K3*sum_{j,k} H_ijk*sin(theta_j+theta_k-2theta_i)",
+      "activation_score": "h_i=beta(Mq+1/2-d_i)+a_E E_i+a_u u_i-a_chi chi_i-a_zeta zeta_i+J2*sum_j W_ij(2p_j-1)+J3*sum_{j,k} H_ijk(2p_j-1)(2p_k-1)",
+      "activation": "p_i=sigma(h_i)=1/(1+exp(-h_i))",
+      "smooth_boundary": "B_5,infinity(c_i)=prod_{a=4}^{8} b(c_{i,a})",
+      "effective_support": "s_i=p_i*kappa_i*(1-chi_i)*(1-zeta_i)*v(omega_i)",
+      "radius": "r_i=r_max*B_5,infinity(c_i)^alpha*s_i^(1/3)",
+      "fiber": "F_i=S^3_{r_i}={y in R^4: ||y||_2=r_i}",
+      "fiber_volume": "Vol(S^3_{r_i})=2*pi^2*r_max^3*B_5,infinity(c_i)^(3alpha)*s_i",
+      "total_space": "X8(tau)={(c,y) in [-1,1]^5 x R^4: ||y||_2=R(c,tau)}",
+      "full_projection": "x_i^(3)(u,tau)=[Pi5(tau)|Psi4(tau)]*[c_i;r_i*u], u in S^3",
+      "latent_5d_gap": "g5_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j))-(lambda_i+lambda_j)",
+      "product_state_separation": "delta8_ij=sqrt((c_i-c_j)^T G5 (c_i-c_j)+(r_i-r_j)^2)",
+      "projected_gap": "g3_ij=||Pi5*c_i-Pi5*c_j||_2-(rhat_i+rhat_j)",
+      "semantic_gap": "gJ_ij=d_J(J_i,J_j)-theta_J",
+      "efficacy_gain": "Delta_8S=Score(M8)-Score(M7)",
+      "admission_gate": "Admit(8S) iff eta_ind>=epsilon_ind and Delta_8S>epsilon_gain"
+    },
+    "relation_test": {
+      "inputs": [
+        "g5_ij",
+        "delta8_ij",
+        "g3_ij",
+        "gJ_ij",
+        "K_ij",
+        "Sigma_ij"
+      ],
+      "classification_order": [
+        "UNRESOLVED when an uncertainty interval crosses a declared tolerance or required evidence/provenance is missing",
+        "CONTRADICTION when K_ij>=theta_K",
+        "HIGHER_ORDER when a triadic term changes the pairwise result",
+        "PROJECTION_ONLY when g5_ij>tol5 and g3_ij<=tol3",
+        "LATENT_5D_COUPLED when g5_ij<-tol5",
+        "FIBER_STATE_RESONANT when delta8_ij<=tol8 and phase coherence is within tolerance",
+        "SEMANTIC_ONLY when latent and projected gaps are positive but gJ_ij<=tolJ",
+        "REINFORCING when semantics, phase, and provenance support the same result",
+        "NONE otherwise"
+      ],
+      "scale": "L=max(ell,r_max,lambda_i,lambda_j,||c_i-c_j||_G5)",
+      "tol5": "1e-7 L unless a stricter profile is declared",
+      "tol8": "1e-7 L unless a stricter profile is declared",
+      "tol3": "1e-5 L unless a stricter rendering profile is declared",
+      "tolJ": "declared semantic-distance tolerance",
+      "observability": "A single 3x5 base projection has nullspace dimension at least two; stacked views require rank 5 for unique linear center reconstruction."
+    },
+    "r12_profile": {
+      "identity_schema": "8S law version and penteract profile",
+      "latent_geometry": "c_i, G5, shell, fifth-coordinate meaning",
+      "activation_support": "p_i, kappa_i, chi_i, zeta_i, s_i",
+      "phase_coupling": "theta_i, W_ij, H_ijk, interaction order",
+      "projection_tests": "g5, delta8, g3, gJ, projection version, tolerance profile",
+      "certification": "eta_ind, Delta_8S, relation class, limitations",
+      "fold_invariant": "document-level folding must preserve contradiction, uncertainty, provenance, projection version, and the interaction order that changed the result"
+    },
+    "execution_policy": {
+      "default": "sparse pairwise neighborhoods",
+      "escalation": "activate triadic terms only in unresolved, contradictory, high-risk, or certification-critical clusters",
+      "complexity_target": "O(Nk) pairwise sparse execution with selective higher-order escalation rather than unrestricted O(N^3) triads"
+    },
+    "validation_gate": {
+      "compare_models": "fit M7 and M8 to the same data and evaluate held-out results",
+      "required_tests": [
+        "nonredundancy",
+        "interpretability",
+        "predictive or certifying gain",
+        "cost-benefit",
+        "projection identifiability",
+        "R12 replay invariants"
+      ],
+      "replay_requirements": {
+        "independence_score_difference": "<=1e-8",
+        "center_radius_phase_difference": "<=1e-7 L with wrapped phase <=1e-6 radians",
+        "relation_class_and_tuple_hash": "identical",
+        "interaction_order": "identical"
+      }
+    },
+    "example": "When g5>tol5 and g3<=tol3, record PROJECTION_ONLY; preserve delta8, gJ, uncertainty, projection version, and interaction order independently.",
+    "annotations": [
+      "The fifth coordinate is admitted only when it contains a material residual outside span(C4), has declared meaning, and improves held-out efficacy after compute and energy costs.",
+      "A five-dimensional base plus an S^3 fiber gives local noncollapsed dimension 8, but does not by itself prove the total space is the standard sphere S^8.",
+      "Increasing latent dimension is distinct from adding higher-order coupling: H_ijk is required for genuine triadic mechanics.",
+      "Additional numerical data required: C4, proposed coordinate e, G5, W, optional H, evidence fields, phase initial conditions, projection family, apparent radii or meshes, semantic metric, tolerances, provenance, and replay identifier."
+    ]
+  }
+}
